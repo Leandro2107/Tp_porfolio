@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp JavaScrip</title>
+</head>
+<body>
+    <h5>Ejercicio 1</h5>
+    <label for="ej1_n1">Numero 1</label>
+    <input type="number" id="ej1_n1"> 
+    
+    
+    <label for="ej1_n2">Numero 2</label>
+    <input type="number" id="ej1_n2"> 
+
+    
+    <label for="ej1_n3">Numero 3</label>
+    <input type="number" id="ej1_n3"> 
+
+
+    <button onclick = func_ej1() > Comparar</button>
+
+    
+    <label for="resultadoej1">Resultado</label>
+    <input type="number" id="resultadoej1"> 
+
+    <script>
+        function func_ej1(){
+            let ej1_n1 = parseFloat( document.getElementById ("ej1_n1").value) 
+            let ej1_n2 = parseFloat( document.getElementById ("ej1_n2").value) 
+            let ej1_n3 = parseFloat( document.getElementById ("ej1_n3").value) 
+
+            let suma = ej1_n1 + ej1_n2 + ej1_n3
+
+            document.getElementById("resultadoej1").value = suma  
+        }      
+    </script>
+
+    <h5>Ejercicio 2</h5>
+    <label for="ej2_n1">Numero 1</label>
+    <input type="number" id="ej2_n1">
+
+    <label for="ej2_n2">Numero 2</label>
+    <input type="number" id="ej2_n2">
+
+    <button onclick = func_ej2() > Sumar </button>
+
+    <label for="resultadoej2">Resultado</label>
+    <input type="number" id="resultadoej2">
+
+    <script>
+        function func_ej2(){
+            let ej2_n1 = parseFloat( document.getElementById ("ej2_n1").value)
+            let ej2_n2 = parseFloat( document.getElementById ("ej2_n2").value)
+
+            let suma = ej2_n1 + ej2_n2
+            document.getElementById("resultadoej2").value = suma
+
+
+
+        }
+    </script>
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+</body>
+</html>
