@@ -10,32 +10,51 @@
 <body>
     <h1>Trabajo practico Javascrip</h1>
     <br>
+
+    <!--
+
+     ---------------------ejercicio 1-----------------
+
+    -->
     <h5>Ejercicio 1</h5>
-    <label for="ej1_n1">Numero 1</label>
+    <p>Ingresar tres valores e indicar cual es el mayor y cual el menor.</p><br>
+    <br>
+    <br>
+    <label for="ej1_n1"> <b>Numero 1</b> </label>
     <input type="number" id="ej1_n1"> 
     
     
-    <label for="ej1_n2">Numero 2</label>
+    <label for="ej1_n2"> <b>Numero 2</b> </label>
     <input type="number" id="ej1_n2"> 
 
     
-    <label for="ej1_n3">Numero 3</label>
+    <label for="ej1_n3"> <b>Numero 3</b> </label>
     <input type="number" id="ej1_n3"> 
 
 
     <button onclick = "func_ej1()"> <b>Comparar</b> </button>
 
     
-    <label for="resultadoej1"> <b>Resultado</b> </label>
-    <input type="number" id="resultadoej1">
+    <label for="mayor"> <b>Mayor</b> </label>
+    <input type="number" id="mayor">
 
-    
+    <label for="menor"> <b>Menor</b> </label>
+    <input type="number" id="menor">
+
+    <!--
+
+     ---------------------ejercicio 2-----------------
+
+    -->
 
     <h5>Ejercicio 2</h5>
-    <label for="ej2_n1">Numero 1</label>
+    <p>Ingresar dos valores, sumarlos y mostrar el resultado en un tercer input.</p><br>
+    <br>
+    <br>
+    <label for="ej2_n1"><b>Numero 1</b> </label>
     <input type="number" id="ej2_n1">
 
-    <label for="ej2_n2">Numero 2</label>
+    <label for="ej2_n2"><b>Numero 2</b> </label>
     <input type="number" id="ej2_n2">
 
     <button onclick = "func_ej2()" > <b> Sumar </b></button>
@@ -43,13 +62,199 @@
     <label for="resultadoej2"> <b>Resultado</b> </label>
     <input type="number" id="resultadoej2">
 
+    <!--
+
+     ---------------------ejercicio 3-----------------
+
+    -->
+
+    <h5>Ejercicio 3</h5>
+    <p>Ingresar una palabra y un numero "n". Repetir la palabra "n" veces.</p><br>
+    <br>
+    <br>
+    <label for="ej3_palabra"> <b>Palabra</b> </label>
+    <input type="text" id="ej3_palabra">
+
+    <label for="ej3_numero"> <b>Numero</b></label>
+    <input type="text" id="ej3_numero">
+
+
+    <button onclick="func_ej3()"> <b>Funcion</b></button>
+
+    <label for="resultadoej3"> <b>Resultado</b></label>
+    <input type="text" id="resultadoej3">
+ 
+    <!--
+
+     ---------------------ejercicio 4-----------------
+
+    -->
+
+    <h5>Ejercicio 4</h5>
+    <p>Realizar un conversor de temperatura: de grados centígrados a Celsius y viceversa. Deberá tener dos input y un botón.</p><br>
+    <br>
+    <br>
+    <label for="ej4_gradosc"> <b>Ingresar C°</b> </label>
+    <input type="text" id="ej4_gradosc">
+
+    <label for="ej4_fahrenheit"> <b>Ingresar f°</b></label>
+    <input type="text" id="ej4_fahrenheit">
+
+
+    <button onclick="func_ej4()"><b>Funcion</b></button>
+
+    <label for="resultado1ej4"> <b>Centigrados</b></label>
+    <input type="text" id="resultado1ej4">
+
+    <label for="resultado2ej4"> <b>Fahrenheit</b></label>
+    <input type="text" id="resultado2ej4">
+
+
+    <!--
+
+     ---------------------ejercicio 5-----------------
+
+    -->
+
+    <h5>Ejercicio 5</h5>
+    <p>Ingresar una palabra y mostrar: PALABRA tiene n letras.</p><br>
+        <br>
+        <br>
+    <label for="ej5_palabra"><b>Palabra</b> </label>
+    <input type="text" id="ej5_palabra">
+
+    <button onclick="func_ej5()"><b>Funcion</b></button>
+
+    <label for="resultadoej5"><b>Cantidad de letras</b></label>
+    <input type="number" id="resultadoej5">
+
+
+
+    <!--
+
+     ---------------------ejercicio 6-----------------
+
+    -->
+
+    <h5>Ejercicio 6</h5>
+    <p>Ingresar un número e indicar si es par.</p><br>
+    <br>
+    <br>
+    <label for="ej6_numero"> <b>Numero</b> </label>
+    <input type="number" id="ej6_numero">
+
+    <button onclick="func_ej6()"> <b>Funcion</b> </button>
+
+    <label for="resultadoej6"> <b>El numero es:</b> </label>
+    <input type="text" id="resultadoej6">
+
+
+    <!--
+
+     ---------------------ejercicio 7-----------------
+
+    -->
+
+    <h5>Ejercicio 7</h5>
+    <p>Ingresar dos números y mostrar los múltiplos de 3 comprendidos entre ambos.</p><br>
+    <br>
+    <br>
+    <label for="ej7_n1"> <b>Numero</b> </label>
+    <input type="number" id="ej7_n1">
+
+    <label for="ej7_n2"><b>Numero</b> </label>
+    <input type="number" id="ej7_n2">
+
+    <button onclick=""> <b>Funcion</b> </button>
+
+    <label for="resultadoej7"> <b>Los multiplos son:</b> </label>
+    <input type="number" id="resultadoej7">
+    
+
+    <!--
+
+     ---------------------ejercicio 8-----------------
+
+    -->
+
+    <h5>Ejercicio 8</h5>
+    <p>Mostrar los números primos hasta un número ingresado por el usuario.</p><br>
+    <br>
+    <br>
+    <label for="ej8_numero"><b>Numero</b> </label>
+    <input type="number" id="ej8_numero">
+
+    <button onclick=""> <b>Funcion</b> </button>
+
+    <label for="resultadoej8"> <b>Los numeros primos son:</b> </label>
+    <input type="number" id="resultadoej8">
+
+
+    <!--
+
+     ---------------------ejercicio 9-----------------
+
+    -->
+
+    <h5>Ejercicio 9</h5>
+    <p>Ingresar un nombre, un apellido, una edad y un ciudad de nacimiento,  crear un párrafo y completar la siguiente frase:</p>
+    <p>"Mi nombre es NOMBRE APELLIDO, tengo EDAD años. Nací en la ciudad de CIUDAD."</p><br>
+    <br>
+    <br>
+    <label for="ej9_nombre"> <b>Nombre</b> </label>
+    <input type="text" id="ej9_nombre">
+
+    <label for="ej9_apellido"> <b>Apellido</b> </label>
+    <input type="text" id="ej9_apellido">
+
+    <label for="ej9_edad"> <b>Edad</b> </label>
+    <input type="number" id="ej9_edad">
+
+    <label for="ej9_ciudad"> <b>Ciudad</b> </label>
+    <input type="text" id="ej9_ciudad">
+
+    <button onclick="func_ej9()" > <b>Funcion</b> </button>
+
+    <label for="resultadoej9"> <b>Resultado:</b> </label>
+    <input type="text" id="resultadoej9">
+
+
+    <!--
+
+     ---------------------ejercicio 10-----------------
+
+    -->
+
+
+    <h5>Ejercicio 10</h5>
+    <p>Ingresar dos valores enteros y enumerar los elementos que los separan. </p>
+    <p>Ejemplo 1: 2 y 6 --> 3 , 4, 5</p>
+    <p>Ejemplo 2: 10 y 5 --> 9, 8, 7, 6</p><br>
+    <br>
+    <br>
+    <label for="ej10_n1"><b>Numero</b> </label>
+    <input type="number" id="ej10_n1">
+
+    <label for="ej10_n2"><b>Numero</b> </label>
+    <input type="number" id="ej10_n2">
+
+    <button onclick="func_ej10()"> <b>Funcion</b> </button>
+
+    <label for="resultadoej10"> <b>Los multiplos son:</b> </label>
+    <input type="number" id="resultadoej10">
+
+
+    <br>
+    <br>
+
     <style>       
-        body {background-color:rgb(37, 36, 36)}
-        h5 {color: aliceblue;}
+        body {background-color:rgb(45, 43, 179)}
+        h5 {color: rgb(255, 254, 254); background-color: black;}
         button {color: black;}
         label {color: aliceblue;}
-        h1 {color: aliceblue;}
+        h1 {color: rgb(236, 236, 236);}
         
     </style>
+
 </body>
 </html>
